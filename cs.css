@@ -1,0 +1,116 @@
+    .body {
+        color: black;
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: first baseline;
+    }
+    
+    .sub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px rebeccapurple solid;
+        position: absolute;
+        top: 50px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    .sub input {
+        margin-left: 40px;
+        border: 2px green solid;
+        border-radius: 20px;
+    }
+    
+    input:hover {
+        border: 2px red solid;
+    }
+    
+    input {
+        height: 30px;
+        width: 60px;
+    }
+    
+    #text {
+        height: 30px;
+        width: 370px;
+    }
+    
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    #ac {
+        width: 370px;
+        background-color: yellow;
+    }
+    
+    #text {
+        color: rgb(253, 72, 1);
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    #red {
+        background-color: red;
+    }
+    
+    #blue {
+        background-color: rgb(0, 12, 143);
+    }
+    
+    .icon {
+        cursor: pointer;
+    }
+    
+    .iconmain {
+        position: absolute;
+        top: 26px;
+        left: 530px;
+    }
+    
+    .clock {
+        position: absolute;
+        top: 55px;
+        left: 421px;
+    }
+    
+    #clock {
+        display: inline-block;
+    }
+    
+    #backs {
+        position: absolute;
+        top: 109px;
+        left: 334px;
+    }
+    
+    @media(max-width:412px) {
+        .sub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px rebeccapurple solid;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .iconmain {
+            position: absolute;
+            top: 7px;
+            left: 153px;
+        }
+        .clock {
+            position: absolute;
+            top: 55px;
+            left: 30px;
+        }
+    }
